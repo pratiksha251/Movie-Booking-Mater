@@ -22,26 +22,5 @@ This is a movie ticket booking site with create/read/update/delete functionality
 12. A user is able to choose a seat and if seat is already booked, `Already booked` message is shown.
 13. After booking, a user is able to check ticket amounts decreased in the movie detail page. 
 
-### Diagram
-
-1. 1st plan : before redux, react only
-
-<img src="src/img/diagram.png" width="550px" />
-
 <!-- App has NavBar and BubbleTeaControl and Footer components comprehensively. BubbleTea control is a global component for BubbleTeaList, NewBubbleTeaForm and BubbleTeaDetail components. Those children components could connect via their parent control.  -->
 
-2. react-redux plan
-
-<img src="src/img/ReduxDiagram.png" width="550px" />
-
-### Sreenshot
-
-<img src="src/img/intro.png" width="700px" />
-
-<img src="src/img/movies.png" width="700px" />
-
-<img src="src/img/detail.png" width="700px" />
-
-<img src="src/img/booking.png" width="700px" />
-
-<img src="src/img/movieSite.gif" width="700px" />
